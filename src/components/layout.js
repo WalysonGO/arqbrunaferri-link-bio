@@ -5,11 +5,9 @@ import texture from "../img/texture-bg-2.svg";
 
 export default function Layout({ children }) {
   return (
-    <>
-      <Container style={{ backgroundImage: `url('${texture}')` }}>
-        <Content>{children}</Content>
-      </Container>
-    </>
+    <Container style={{ backgroundImage: `url('${texture}')` }}>
+      <Content>{children}</Content>
+    </Container>
   );
 }
 
@@ -27,12 +25,11 @@ const Container = tw.div`
   bg-repeat
   bg-center
   bg-50px
-  overflow-hidden
+  z-10
 `;
 
 const Content = tw.div`
   max-w-screen-sm
   align-center
   p-12 sm:p-12
-  overflow-hidden
 `;

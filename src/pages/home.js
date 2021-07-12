@@ -14,7 +14,7 @@ import circulo from "../img/circulo.png";
 
 function App() {
   return (
-    <>
+    <StyledApp>
       <CirculoListrado />
       <FolhaUnica />
       <FolhaDupla />
@@ -26,11 +26,18 @@ function App() {
       <CirculoConjunto />
       <Circulo />
       <CirculoDouble />
-    </>
+    </StyledApp>
   );
 }
 
 export default App;
+
+const StyledApp = styled.div`
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+`;
 
 const CirculoListrado = styled.div`
   background-image: url(${circulolistrado});
@@ -38,8 +45,8 @@ const CirculoListrado = styled.div`
   background-position: center;
   background-size: cover;
   position: absolute;
-  top: -80px;
-  left: -80px;
+  top: -100px;
+  left: -100px;
   min-width: 30vh;
   min-height: 30vh;
 `;
@@ -50,8 +57,8 @@ const FolhaUnica = styled.div`
   background-position: center;
   background-size: cover;
   position: absolute;
-  top: -100px;
-  left: -10px;
+  top: -110px;
+  left: -110px;
   min-width: 30vh;
   min-height: 30vh;
 `;
@@ -62,10 +69,10 @@ const FolhaDupla = styled.div`
   background-position: center;
   background-size: cover;
   position: absolute;
-  top: -80px;
+  top: -50px;
   right: -50px;
-  min-width: 30vh;
-  min-height: 30vh;
+  min-width: 20vh;
+  min-height: 20vh;
 `;
 
 const CirculoConjunto = styled.div`
@@ -74,8 +81,8 @@ const CirculoConjunto = styled.div`
   background-position: center;
   background-size: cover;
   position: absolute;
-  bottom: -40px;
-  left: -40px;
+  bottom: -100px;
+  left: -100px;
   min-width: 30vh;
   min-height: 30vh;
 `;
@@ -86,7 +93,7 @@ const Circulo = styled.div`
   background-position: center;
   background-size: cover;
   position: absolute;
-  bottom: -20px;
+  bottom: -30px;
   right: -30px;
   min-width: 10vh;
   min-height: 10vh;
@@ -98,8 +105,8 @@ const CirculoDouble = styled.div`
   background-position: center;
   background-size: cover;
   position: absolute;
-  bottom: -20px;
-  right: 50px;
+  bottom: -50px;
+  right: -50px;
   min-width: 5vh;
   min-height: 5vh;
 `;
