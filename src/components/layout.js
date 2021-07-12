@@ -14,8 +14,6 @@ export default function Layout({ children }) {
 const Container = tw.div`
   w-screen
   h-screen
-  m-0
-  p-0
   flex 
   flex-col
   justify-center
@@ -29,7 +27,6 @@ const Container = tw.div`
 `;
 
 const Content = tw.div`
-  max-w-screen-sm
   align-center
-  p-12 sm:p-12
+  max-w-screen-sm	
 `;

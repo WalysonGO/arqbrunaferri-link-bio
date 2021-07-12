@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import tw from "tailwind-styled-components";
 
 import Avatar from "../components/avatar";
 import CTAs from "../components/cta";
@@ -14,7 +15,7 @@ import circulo from "../img/circulo.png";
 
 function App() {
   return (
-    <StyledApp>
+    <StyledApp2>
       <CirculoListrado />
       <FolhaUnica />
       <FolhaDupla />
@@ -26,17 +27,15 @@ function App() {
       <CirculoConjunto />
       <Circulo />
       <CirculoDouble />
-    </StyledApp>
+    </StyledApp2>
   );
 }
 
 export default App;
 
-const StyledApp = styled.div`
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+const StyledApp2 = tw.div`
+  absolute
+  overflow-hidden
 `;
 
 const CirculoListrado = styled.div`

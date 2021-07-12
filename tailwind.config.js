@@ -19,9 +19,11 @@ module.exports = {
         "arq-green-600": "#6B7774",
       },
       width: {
+        50: "12.8rem",
         68: "17rem",
       },
       height: {
+        50: "12.8rem",
         68: "17rem",
       },
       borderWidth: {

@@ -3,13 +3,11 @@ import tw from "tailwind-styled-components";
 
 export default function Info() {
   return (
-    <>
-      <Container>
-        <Paragraph>Pode clicar a vontade!!</Paragraph>
-        <Paragraph>quero te ajudar de alguma forma.</Paragraph>
-        <Paragraph>o que você está procurando?</Paragraph>
-      </Container>
-    </>
+    <Container>
+      <Paragraph>Pode clicar a vontade!!</Paragraph>
+      <Paragraph>quero te ajudar de alguma forma.</Paragraph>
+      <Paragraph>o que você está procurando?</Paragraph>
+    </Container>
   );
 }
 const Container = tw.article`
@@ -20,7 +18,6 @@ const Container = tw.article`
 `;
 
 const Paragraph = tw.span`
-  w-max
   text-white
   text-center
   text-md
