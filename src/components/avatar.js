@@ -20,7 +20,6 @@ const Container = tw.div`
   justify-center
   items-center
   mb-14
-  mt-12 sm:mt-8
 `;
 
 const Photo = tw.img`
