@@ -20,7 +20,7 @@ const Container = tw.article`
 const Paragraph = tw.span`
   text-white
   text-center
-  text-md
+  text-sm sm:text-md
   text-shadow
   uppercase
   font-rockwell

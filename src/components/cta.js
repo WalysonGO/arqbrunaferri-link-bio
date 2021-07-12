@@ -25,12 +25,15 @@ const Container = tw.article`
   flex
   flex-col
   justify-center
+  items-center
   mt-4
 `;
 
 const Button = tw.button`
+  w-full
   pt-2
   py-2
+  px-10
   mb-4
   flex
   justify-center
@@ -52,6 +55,6 @@ const Paragraph = tw.span`
   font-rockwell
   pt-2
   text-center
-  text-xl
+  text-sm sm:text-lg
   text-shadow
 `;

@@ -6,7 +6,9 @@ import texture from "../img/texture-bg-2.svg";
 export default function Layout({ children }) {
   return (
     <Container style={{ backgroundImage: `url('${texture}')` }}>
-      <Content>{children}</Content>
+      <Content>
+        <InnerContent>{children}</InnerContent>
+      </Content>
     </Container>
   );
 }
@@ -29,4 +31,9 @@ const Container = tw.div`
 const Content = tw.div`
   align-center
   max-w-screen-sm	
+`;
+
+const InnerContent = tw.div`
+  align-center
+  p-12	
 `;
