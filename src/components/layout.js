@@ -35,5 +35,4 @@ const Content = tw.div`
 
 const InnerContent = tw.div`
   align-center
-  p-12	
 `;
