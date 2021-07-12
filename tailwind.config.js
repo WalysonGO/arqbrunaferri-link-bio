@@ -24,20 +24,20 @@ module.exports = {
       height: {
         68: "17rem",
       },
-    },
-    borderWidth: {
-      20: "20px",
-    },
-    fontFamily: {
-      rockwell: ["rockwell"],
-      clear_sans_bold: ["clear_sans_bold"],
-      clear_sans_medium: ["clear_sans_medium"],
-      clear_sans_regular: ["clear_sans_regular"],
-      clear_sans_thin: ["clear_sans_thin"],
-      clear_sans_light: ["clear_sans_light"],
-    },
-    backgroundSize: {
-      "50px": "50px",
+      borderWidth: {
+        20: "20px",
+      },
+      fontFamily: {
+        rockwell: ["rockwell"],
+        clear_sans_bold: ["clear_sans_bold"],
+        clear_sans_medium: ["clear_sans_medium"],
+        clear_sans_regular: ["clear_sans_regular"],
+        clear_sans_thin: ["clear_sans_thin"],
+        clear_sans_light: ["clear_sans_light"],
+      },
+      backgroundSize: {
+        "50px": "50px",
+      },
     },
   },
   variants: {
