@@ -4,7 +4,6 @@ import tw from "tailwind-styled-components";
 export default function Info() {
   return (
     <Container>
-      <Paragraph>Pode clicar a vontade!!</Paragraph>
       <Paragraph>quero te ajudar de alguma forma.</Paragraph>
       <Paragraph>o que você está procurando?</Paragraph>
     </Container>
