@@ -4,7 +4,7 @@ import tw from "tailwind-styled-components";
 export default function Info() {
   return (
     <Container>
-      <Paragraph>quero te ajudar de alguma forma.</Paragraph>
+      <Paragraph $hasMB>quero te ajudar de alguma forma.</Paragraph>
       <Paragraph>o que você está procurando?</Paragraph>
     </Container>
   );
@@ -24,7 +24,7 @@ const Paragraph = tw.span`
   uppercase
   font-rockwell
   pt-2
-  mb-2
+  ${(props) => props.$hasMB && "mb-2"}
   px-4
   py-1
   bg-arq-brown-300
